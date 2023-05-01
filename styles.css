@@ -13,9 +13,22 @@
 .heading-container{line-height: 67px;margin-top: 7rem;font-family: "Open-Sans",sans-serif; font-size: 58px;
     text-align: center;}
 .product-btn{gap: 2rem; display: flex; font-family: "Open-Sans",sans-serif; justify-content: center; margin-top: 3rem;}
-.blue-btn{ border: none; padding: 10px 20px 10px 20px;background-color: #185abc;color: white;font-size: 16px;border-radius: 5px;}
+.blue-btn{ border: none; padding: 15px 25px 15px 25px;background-color: #185abc;color: white;font-size: 16px;border-radius: 5px;}
 .white-btn{padding: 10px 20px 10px 20px;font-size: 16px;color: #185abc; font-weight: 500; border-radius: 5px; border: 1px solid grey;}
 .animated-book-image{background-size: cover;background-repeat: no-repeat;background-position: center;height: 33rem;
     width: 67rem;border: none;border-radius: 10px;background-image: url(./images/animated-book.jpg); margin-top: 6rem; margin-bottom: 3rem;}
 .adjust-btn{text-align: center; margin-top: 3rem;}
-.image-container{display: flex;}
+.image-container{display: flex; gap: 4rem; margin-top: 7rem;}
+.photo-container{ background-repeat: no-repeat; background-size: cover;    
+     height: 16rem;    width: 25rem; background-position: center; border-radius: 5px;} 
+.image-1{background-image: url('./images/image-1.jpg');}
+.image-3{background-image: url('./images/image-3.jpg');}
+.image-2{background-image: url('./images/image-2.jpg'); height: 25rem; width: 25rem;}
+.image-alignment{justify-content: center;}
+.image-4{background-image: url('./images/image-4.jpg'); width: 37rem;height: 24rem;}
+.image-5{background-image: url('./images/image-5.jpg'); width: 37rem;height: 24rem;}
+.image-6{background-image: url('./images/image-6.jpg'); height: 10rem; width: 17rem;}
+.image-7{background-image: url('./images/image-7.jpg'); height: 12rem; width: 18rem;}
+.image-8{background-image: url('./images/image-8.jpg'); height: 12rem; width: 18rem;}
+.image-9{background-image: url('./images/image-9.jpg'); height: 12rem; width: 18rem;}
+.image-card{ display: grid; justify-content: center;}
