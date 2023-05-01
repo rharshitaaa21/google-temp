@@ -9,7 +9,7 @@
      width: 67rem;border: none;border-radius: 10px;background-image: url(./images/google-body-image.jpg);}
 .info-container{ margin-bottom: 5rem; word-spacing: 3px;font-family: "Open-Sans",sans-serif; font-size: 27px;text-align: center; line-height: 36px;}
 .body-caption{ line-height: 32px;margin-top: 2rem; word-spacing: 3px;font-size: 26px;text-align: center; font-family: "Open-Sans",sans-serif;}
-.blue-tag{font-family: "Open-Sans",sans-serif; font-size: 15px; color: blue; text-align: center; margin-top: 1rem; font-weight: 600;} 
+.blue-tag{font-family: "Open-Sans",sans-serif; font-size: 15px; color: blue; text-align: center; margin-top: 1rem; } 
 .heading-container{line-height: 67px;margin-top: 7rem;font-family: "Open-Sans",sans-serif; font-size: 58px;
     text-align: center;}
 .product-btn{gap: 2rem; display: flex; font-family: "Open-Sans",sans-serif; justify-content: center; margin-top: 3rem;}
@@ -32,3 +32,9 @@
 .image-8{background-image: url('./images/image-8.jpg'); height: 12rem; width: 18rem;}
 .image-9{background-image: url('./images/image-9.jpg'); height: 12rem; width: 18rem;}
 .image-card{ display: grid; justify-content: center;}
+.icon-foot{margin-top:7rem; display: flex; justify-content: space-between;}
+.footer{background-color: #f8f9fa; display: grid; justify-content: center;}
+.left-social-icons{ display: flex; gap: 2rem;}
+.follow-us{font-family: "Open-Sans",sans-serif; font-size: 16x; color: rgb(14, 14, 14);}
+.icon-decoration{outline: none;  text-decoration: none; color: black; font-size: 24px;}
+.right-social-icons{ float: right;}
