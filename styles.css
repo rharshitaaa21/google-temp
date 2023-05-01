@@ -1,0 +1,8 @@
+.topnav {font-family: "Open-Sans",sans-serif; border-bottom: 1px solid grey;}
+.nav-list{ display: inline; padding: 1rem; color: grey; font-weight: 400;}
+.body{margin: 0px; padding: 0px;}
+.active{ border-bottom: 2px solid blue;  color: black}
+.google-icon-nav{ }
+.centeral-body-image{ display: grid;justify-content: center; margin-top: 100px; }
+.centeral-container{height: 36rem; width: 68rem; border: none; border-radius: 10px;}
+.info-container{  word-spacing: 4px;font-family: "Open-Sans",sans-serif;font-size: 26px; text-align: center;}
