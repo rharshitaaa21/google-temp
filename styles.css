@@ -32,9 +32,9 @@
 .image-8{background-image: url('./images/image-8.jpg'); height: 12rem; width: 18rem;}
 .image-9{background-image: url('./images/image-9.jpg'); height: 12rem; width: 18rem;}
 .image-card{ display: grid; justify-content: center;}
-.icon-foot{margin-top:7rem; display: flex; justify-content: space-between;}
-.footer{background-color: #f8f9fa; display: grid; justify-content: center;}
-.left-social-icons{ display: flex; gap: 2rem;}
+.icon-foot{padding-bottom: 3rem; width: 1170px;margin-top: 3rem;display: flex;justify-content: space-between; border-bottom: 1px solid grey;}
+.footer{margin-top: 8rem; background-color: #f8f9fa; display: grid; justify-content: center;}
+.left-social-icons{ display: flex; gap: 2rem; float: left;}
 .follow-us{font-family: "Open-Sans",sans-serif; font-size: 16x; color: rgb(14, 14, 14);}
 .icon-decoration{outline: none;  text-decoration: none; color: black; font-size: 24px;}
-.right-social-icons{ float: right;}
+.right-social-icons{ float: right; gap: 2rem; display: flex;}
