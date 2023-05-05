@@ -5,22 +5,33 @@
 .nav-list{ margin-right: 1.5rem;padding: 1rem 0rem 1rem 0rem;display: inline;font-weight: 500;
   font-family: "Google Sans",Arial,Helvetica,sans-serif;font-size: 16px;letter-spacing: .25px;color: #5f6368;}
 .nav-components{margin-left: 28px; margin-top: 15px;}
+.blue{color: #4285f4;}
+.red{color: #ea4335;}
+.green{color: #34a853;}
+.yellow{color: #f9ab00;}
 .body{margin: 0px; padding: 0px;}
 .active{ border-bottom: 2px solid blue;  color: black}
 .google-icon-nav{margin:15px 12px 15px 11px;;  display: block;height: 29px;width: 75px; background-repeat: no-repeat ; background-image: url(./images/google-icon-navbar.png);}
-.centeral-body-image{ display: grid;justify-content: center; margin-top: 4.5rem }
-.centeral-container{background-size: cover;background-repeat: no-repeat;background-position: center;height: 33rem;
-  margin-left: 8rem;   width: 67rem;border: none;border-radius: 10px;background-image: url(./images/google-body-image.jpg);}
-.info-container{ margin-bottom: 5rem; word-spacing: 3px;font-family: "Open-Sans",sans-serif; font-size: 27px;text-align: center; line-height: 36px;}
-.body-caption{ line-height: 32px;margin-top: 2rem; word-spacing: 3px;font-size: 26px;text-align: center; font-family: "Open-Sans",sans-serif;}
-.blue-tag{font-family: "Open-Sans",sans-serif; font-size: 15px; color: blue; text-align: center; margin-top: 1rem; } 
-.heading-container{line-height: 67px;margin-top: 7rem;font-family: "Open-Sans",sans-serif; font-size: 58px;
+.centeral-body-image{ display: grid;justify-content: center; margin-top: 3.5rem }
+.centeral-container{background-size: cover;background-repeat: no-repeat;background-position: center;height: 38rem;
+    width: 67rem;border: none;border-radius: 10px;background-image: url(./images/google-body-image.jpg);}
+.info-container{ margin-bottom: 5rem; word-spacing: 3px;font-family: "Open-Sans",sans-serif; font-size: 28px;text-align: center; line-height: 36px;}
+.body-caption{ line-height: 32px;margin-top: 2rem; word-spacing: 3px;font-size: 28px;text-align: center; font-family: "Open-Sans",sans-serif;}
+.blue-tag{font-family: "Open-Sans",sans-serif; font-size: 15px;font-weight: 600; color: blue; text-align: center; margin-top: 1rem; } 
+.post-card-1{display: grid;justify-content: center;}
+.post-card-1:hover{
+  border: 2px solid #1a73e8;
+  border-radius: 10px;
+}
+.heading-container{line-height: 67px;margin-top: 9rem;font-family: "Open-Sans",sans-serif; font-size: 67px;
     text-align: center;}
+.post-card-2{ display: grid;justify-content: center; margin-top: 6rem;}
+.post-card-2:hover{border: 2px solid #1a73e8;border-radius: 10px;}
 .product-btn{gap: 2rem; display: flex; font-family: "Open-Sans",sans-serif; justify-content: center; margin-top: 3rem;}
 .blue-btn{ border: none; padding: 15px 25px 15px 25px;background-color: #185abc;color: white;font-size: 16px;border-radius: 5px;}
 .white-btn{padding: 10px 20px 10px 20px;font-size: 16px;color: #185abc; font-weight: 500; border-radius: 5px; border: 1px solid grey;}
 .animated-book-image{background-size: cover;background-repeat: no-repeat;background-position: center;height: 33rem;
- margin-left: 6rem;   width: 67rem;border: none;border-radius: 10px;background-image: url(./images/animated-book.jpg); margin-top: 6rem; margin-bottom: 3rem;}
+ ;width: 67rem;border: none;border-radius: 10px;background-image: url(./images/animated-book.jpg); margin-top: 6rem; margin-bottom: 3rem;}
 .adjust-btn{text-align: center; margin-top: 3rem;}
 .image-container{display: flex; gap: 4rem; margin-top: 7rem;}
 .photo-container{ background-repeat: no-repeat; background-size: cover;    
