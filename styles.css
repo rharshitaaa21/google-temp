@@ -18,21 +18,21 @@
 .info-container{ margin-bottom: 5rem; word-spacing: 3px;font-family: "Open-Sans",sans-serif; font-size: 28px;text-align: center; line-height: 36px;}
 .body-caption{ line-height: 32px;margin-top: 2rem; word-spacing: 3px;font-size: 28px;text-align: center; font-family: "Open-Sans",sans-serif;}
 .blue-tag{font-family: "Open-Sans",sans-serif; font-size: 15px;font-weight: 600; color: blue; text-align: center; margin-top: 1rem; } 
-.post-card-1{display: grid;justify-content: center;}
+.post-card-1{display: grid;justify-content: center; cursor: pointer;}
 .post-card-1:hover{
   border: 2px solid #1a73e8;
   border-radius: 10px;
 }
 .heading-container{line-height: 67px;margin-top: 9rem;font-family: "Open-Sans",sans-serif; font-size: 67px;
     text-align: center;}
-.post-card-2{ display: grid;justify-content: center; margin-top: 6rem;}
+.post-card-2{ display: grid;justify-content: center; margin-top: 6rem; cursor: pointer;}
 .post-card-2:hover{border: 2px solid #1a73e8;border-radius: 10px;}
-.product-btn{gap: 2rem; display: flex; font-family: "Open-Sans",sans-serif; justify-content: center; margin-top: 3rem;}
-.blue-btn{ border: none; padding: 15px 25px 15px 25px;background-color: #185abc;color: white;font-size: 16px;border-radius: 5px;}
-.white-btn{padding: 10px 20px 10px 20px;font-size: 16px;color: #185abc; font-weight: 500; border-radius: 5px; border: 1px solid grey;}
+.product-btn{gap: 2rem; display: flex; font-family: "Open-Sans",sans-serif; justify-content: center; margin-top: 3rem; cursor: pointer;}
+.blue-btn{font-family: "Open-Sans",sans-serif; cursor: pointer; border: none; padding: 15px 25px 15px 25px;background-color: #185abc;color: white;font-size: 16px;border-radius: 5px;}
+.white-btn{ cursor: pointer; padding: 10px 20px 10px 20px;font-size: 16px;color: #185abc; font-weight: 500; border-radius: 5px; border: 1px solid grey;}
 .animated-book-image{background-size: cover;background-repeat: no-repeat;background-position: center;height: 33rem;
  ;width: 67rem;border: none;border-radius: 10px;background-image: url(./images/animated-book.jpg); margin-top: 6rem; margin-bottom: 3rem;}
-.adjust-btn{text-align: center; margin-top: 3rem;}
+.adjust-btn{text-align: center; margin-top: 3rem; cursor: pointer;}
 .image-container{display: flex; gap: 4rem; margin-top: 7rem;}
 .photo-container{ background-repeat: no-repeat; background-size: cover;    
      height: 16rem;    width: 25rem; background-position: center; border-radius: 5px;} 
@@ -60,4 +60,12 @@ justify-content: space-between; padding-bottom: 2rem; border-bottom: 1px solid #
 .about-list{list-style: none; color: grey; font-weight: 500; padding-bottom: 1rem;}
 .lower-footer{display: flex; gap: 2rem; font-family: "Open-Sans",sans-serif; padding-top: 2rem; }
 .google-footer{ font-family: "Open-Sans",sans-serif; font-size: 20px; color: grey; }
-
+.product-heading{display: flex;justify-content: space-between; gap: 30rem;}
+.product-head{font-family: "Open-Sans",sans-serif;
+font-weight: 500;font-size: 112px;}
+.product-image{background-size: cover; background-image: url(./images/product-image.jpg); background-repeat: no-repeat; background-position: center;
+  height: 226px;width: 322px;}
+.product-card{display: inline-flex;border-radius: 10px;margin-top: 10rem;align-content: center;flex-wrap: wrap;
+  flex-direction: column;}
+.product-caption{font-family: "Open-Sans",sans-serif;font-weight: 500;font-size: 22px; text-align: center; padding-top: 1rem;}
+.center-body{display: grid; justify-content: center; justify-items: center;}
