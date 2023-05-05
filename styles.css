@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 .topnav {font-family: "Open-Sans",sans-serif;  display: flex;}
-.nav-list{ display: inline; padding: 1rem; color: grey; font-weight: 400;}
-.nav-components{margin-left: 12px; margin-top: 15px;}
+.nav-list{ margin-right: 1.5rem;padding: 1rem 0rem 1rem 0rem;display: inline;font-weight: 500;
+  font-family: "Google Sans",Arial,Helvetica,sans-serif;font-size: 16px;letter-spacing: .25px;color: #5f6368;}
+.nav-components{margin-left: 28px; margin-top: 15px;}
 .body{margin: 0px; padding: 0px;}
 .active{ border-bottom: 2px solid blue;  color: black}
-.google-icon-nav{  display: block;height: 29px;width: 75px; padding: 7px;}
+.google-icon-nav{margin:15px 12px 15px 11px;;  display: block;height: 29px;width: 75px; background-repeat: no-repeat ; background-image: url(./images/google-icon-navbar.png);}
 .centeral-body-image{ display: grid;justify-content: center; margin-top: 4.5rem }
 .centeral-container{background-size: cover;background-repeat: no-repeat;background-position: center;height: 33rem;
   margin-left: 8rem;   width: 67rem;border: none;border-radius: 10px;background-image: url(./images/google-body-image.jpg);}
@@ -45,3 +49,4 @@ justify-content: space-between; padding-bottom: 2rem; border-bottom: 1px solid #
 .about-list{list-style: none; color: grey; font-weight: 500; padding-bottom: 1rem;}
 .lower-footer{display: flex; gap: 2rem; font-family: "Open-Sans",sans-serif; padding-top: 2rem; }
 .google-footer{ font-family: "Open-Sans",sans-serif; font-size: 20px; color: grey; }
+
