@@ -23,6 +23,7 @@
     text-align: center;}
 .post-card-2{ display: grid;justify-content: center; margin-top: 6rem; cursor: pointer;}
 .post-card-2:hover{border: 2px solid #1a73e8;border-radius: 10px;}
+.blue-btn-display{font-family: "Open-Sans",sans-serif;  display: flex; cursor: pointer; border: none; padding: 15px 25px 15px 25px;background-color: #185abc;color: white;font-size: 16px;border-radius: 5px}
 .product-btn{gap: 2rem; display: flex; font-family: "Open-Sans",sans-serif; justify-content: center; margin-top: 3rem; cursor: pointer;}
 .blue-btn{font-family: "Open-Sans",sans-serif;  display: inline-block; cursor: pointer; border: none; padding: 15px 25px 15px 25px;background-color: #185abc;color: white;font-size: 16px;border-radius: 5px;}
 .white-btn{ cursor: pointer; padding: 10px 20px 10px 20px;font-size: 16px;color: #185abc; font-weight: 500; border-radius: 5px; border: 1px solid grey;}
@@ -83,10 +84,14 @@ background-size: cover; width: 35rem; height: 20rem; border-radius: 5px; float: 
 .g-image{background-image: url(./images/G.png); background-position: center; background-repeat: no-repeat;
   background-size: cover; width: 10rem; height: 10rem;  margin-bottom: 3rem;}
 .image-container{display: flex; justify-content: space-between;}
-.vertical-block{    justify-items: center;display: grid; padding: 4rem 3rem 4rem 3rem; border: 1px solid lightgray ; border-radius: 10px; text-align: center;}
-.block-image{background-image: url(./images/col1.png); background-position: center; background-repeat: no-repeat;
-  background-size: cover ; height: 7rem; width: 7rem; margin-bottom: 3rem;} 
-.block-head{word-spacing: 6px;font-family: "Open-Sans",sans-serif;box-sizing: border-box;color: #202124;
+.vertical-block-padding{padding: 5rem 2rem 4rem 5rem;}
+.vertical-block{  justify-items: center;display: grid; padding: 4rem 2rem 4rem 2rem; border: 1px solid lightgray ; border-radius: 10px; text-align: center;}
+.block-image{ background-position: center; background-repeat: no-repeat;
+  background-size: cover ; height: 7rem; width: 7rem; margin-bottom: 3rem;}
+.block-image1{background-image: url(./images/col1.png);}
+.block-image2{background-image: url(./images/col2.png);}
+.block-image3{background-image: url(./images/col3.png);} 
+.block-head{font-family: "Open-Sans",sans-serif;box-sizing: border-box;color: #202124;
   font-size: 26px;line-height: 32px; }
   .block-caption{ color: #5f6368; font-family: "Open-Sans",sans-serif; font-size: 18px; margin-top: 12px;
     line-height: 1.5; font-size: 16px;letter-spacing: 0;
