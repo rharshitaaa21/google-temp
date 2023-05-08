@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-.topnav {font-family: "Open-Sans",sans-serif;  display: flex;}
+.topnav {font-family: "Open-Sans",sans-serif;  display: flex;  margin: 0 auto;}
 .nav-list{ margin-right: 1.5rem;padding: 1rem 0rem 1rem 0rem;display: inline;font-weight: 500;
   font-family: "Google Sans",Arial,Helvetica,sans-serif;font-size: 16px;letter-spacing: .25px;color: #5f6368;}
 .nav-components{margin-left: 28px; margin-top: 15px;}
@@ -25,7 +25,7 @@
 .post-card-2{ display: grid;justify-content: center; margin-top: 6rem; cursor: pointer;}
 .post-card-2:hover{border: 2px solid #1a73e8;border-radius: 10px;}
 .product-btn{gap: 2rem; display: flex; font-family: "Open-Sans",sans-serif; justify-content: center; margin-top: 3rem; cursor: pointer;}
-.blue-btn{font-family: "Open-Sans",sans-serif; cursor: pointer; border: none; padding: 15px 25px 15px 25px;background-color: #185abc;color: white;font-size: 16px;border-radius: 5px;}
+.blue-btn{font-family: "Open-Sans",sans-serif;  display: inline-block; cursor: pointer; border: none; padding: 15px 25px 15px 25px;background-color: #185abc;color: white;font-size: 16px;border-radius: 5px;}
 .white-btn{ cursor: pointer; padding: 10px 20px 10px 20px;font-size: 16px;color: #185abc; font-weight: 500; border-radius: 5px; border: 1px solid grey;}
 .animated-book-image{background-size: cover;background-repeat: no-repeat;background-position: center;height: 33rem;
  ;width: 67rem;border: none;border-radius: 10px;background-image: url(./images/animated-book.jpg); margin-top: 6rem; margin-bottom: 3rem;}
@@ -58,21 +58,28 @@ justify-content: space-between; padding-bottom: 2rem; border-bottom: 1px solid #
 .about-list{list-style: none; color: grey; font-weight: 500; padding-bottom: 1rem;}
 .lower-footer{display: flex; gap: 2rem; font-family: "Open-Sans",sans-serif; padding-top: 2rem; }
 .google-footer{ font-family: "Open-Sans",sans-serif; font-size: 20px; color: grey; }
-.product-heading{display: flex;align-items: center;}
+.product-heading{display: flex;align-items: center;    margin-bottom: 2rem;}
 .product-head{font-family: "Open-Sans",sans-serif;
 font-weight: 500;font-size: 112px;}
 .product-image{background-size: cover; background-image: url(./images/product-image.jpg); background-repeat: no-repeat; background-position: center;
   height: 198px;width: 275px;}
-  .center-width{ width: 1170px; }
+  .center-width{ display: flex; width: 1170px; flex-direction: column; align-items: center;align-items: center; }
 .product-card{ margin-left: 20rem; border-radius: 5px; border: 1px solid grey;}
 .product-card:hover{ transition-duration: 150ms; box-shadow: 0 5px 20px 5px #00000044;}
 .product-caption{font-family: "Open-Sans",sans-serif;font-weight: 500;font-size: 22px;padding-bottom: 1rem; text-align: center; padding-top: 1rem;}
 .center-body{display: grid;justify-items: center;}
-.product-tag-2{display: inline}
+.product-tag-2{margin-top: 10rem;display: flex;border-bottom: 1px solid #dadce0;padding-bottom: 5rem;}
 .product-caption-2{ float: left;}
 .product-head-2{    font-size: 48px;
   line-height: 56px;     font-weight: 400;
   letter-spacing: -.25px;font-family: "Open-Sans",sans-serif;} 
-.product-line-2{color: #5f6368;font-family: "Open-Sans",sans-serif;font-size: 20px;}
-.product-photo-2{background-image: url(./images/product-image-2.jpg); background-position: center; background-repeat: no-repeat;
-background-size: cover; width: 40rem; height: 20rem; border-radius: 5px; float: right;}
+.product-line-2{color: #5f6368;font-family: "Open-Sans",sans-serif;font-size: 20px; margin-top: 1.5rem;}
+.product-photo-2{margin-left: 8rem; background-image: url(./images/product-image-2.jpg); background-position: center; background-repeat: no-repeat;
+background-size: cover; width: 35rem; height: 20rem; border-radius: 5px; float: right;}
+.product-head-3{font-family: "Open-Sans",sans-serif; color: #202124; font-size: 60px;font-weight: 400;letter-spacing: -.5px;line-height: 72px;font-family: "Open-Sans",sans-serif;}
+.align-btn{text-align: left;}
+.g-container{margin-top: 5rem; padding-bottom: 5rem; border-bottom: 1px solid #dadce0;display: grid; justify-items: center;justify-content: center;}
+  .g-caption{font-size: 36px; font-weight: 400;letter-spacing: -.25px; line-height: 44px; word-spacing: 2px;
+    line-height: 38px;color: #5f6368;font-family: "Open-Sans",sans-serif;text-align: center; padding: 2rem 0rem 2rem 0rem;}
+.g-image{background-image: url(./images/G.png); background-position: center; background-repeat: no-repeat;
+  background-size: cover; width: 10rem; height: 10rem;  margin-bottom: 3rem;}
