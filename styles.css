@@ -1,17 +1,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.body{font-family: "Open-Sans",sans-serif;}
-.topnav {font-family: "Open-Sans",sans-serif;  display: flex;  margin: 0 auto;}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Open-Sans',sans-serif;
+}
+
+
+.icon-nav{margin:15px 12px 15px 11px;;  display: block;height: 29px;width: 75px; background-repeat: no-repeat ; background-image: url(./google-icon-navbar.png);}
+.topnav {
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.topnav > .nav-header {
+  display: inline-flex;
+}
+
+.topnav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #0000;
+  font-weight: 550;
+  font-family: 'Open-Sans',sans-serif;
+  padding: 10px 10px 10px 10px;
+}
+
+.topnav > .nav-btn {
+  display: none;
+}
+
+.topnav > .nav-links {
+  
+  display: inline-block;
+  font-size: 18px;
+}
+.topnav > .nav-links > ul li a{
+  display: block;
+  padding: 0 8px;
+  color:black;
+  line-height: 40px;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+.topnav > .nav-links > ul{
+  padding: 0;
+  margin-top: 5px;
+  list-style: none;
+  position: relative;
+  
+}
+.topnav > .nav-links > ul li{
+  display: inline-block;
+  color: #0000;;
+  
+  
+}
+.topnav > .nav-links > ul li:hover{
+   color: #0000;
+    border-radius: 5px;
+}
+
+.topnav > #nav-check {
+  display: none;
+}
+
+.ntopnavav .nav-links ul a.icon{
+margin-left: 80px;
+margin-right: 10px;
+}
+
+.topnav .nav-links ul a i{
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 7px;
+  margin-left: 5px;
+}
+
+
+@media (max-width:600px) {
+  .topnav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .topnav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .topnav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .topnav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid black
+  }
+  .topnav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: lightgray;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .topnav > .nav-links > ul li a {
+    display: block;
+    width: 100%;
+  }
+
+  /*   */
+
+
+  
+    .topnav > .nav-links > ul li{
+      display: block;
+      margin-bottom: 20px;
+      padding: 0;
+      background-color: rgba(187, 184, 184, 0.3);
+       
+    }
+    .topnav > .nav-links > ul li a{
+        margin-left: 40%;
+    }
+
+  /*   */
+  .topnav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .topnav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .topnav {overflow: hidden;font-family: "Open-Sans",sans-serif;  display: flex;  margin: 0 auto;}
 .nav-list{ margin-right: 1.5rem;padding: 1rem 0rem 1rem 0rem;display: inline;font-weight: 500;
   font-family: "Google Sans",Arial,Helvetica,sans-serif;font-size: 16px;letter-spacing: .25px;color: #5f6368;}
-.nav-components{margin-left: 28px; margin-top: 15px;}
-.blue{color: #4285f4;}
-.red{color: #ea4335;}
-.green{color: #34a853;}
-.yellow{color: #f9ab00;}
+.nav-links{margin-left: 28px; margin-top: 15px;} */
+.custom-blue{color: #4285f4;}
+.custom-red{color: #ea4335;}
+.custom-green{color: #34a853;}
+.custom-yellow{color: #f9ab00;}
 .body{margin: 0px; padding: 0px;}
 .active{ border-bottom: 2px solid blue;  color: black}
-.google-icon-nav{margin:15px 12px 15px 11px;;  display: block;height: 29px;width: 75px; background-repeat: no-repeat ; background-image: url(./images/google-icon-navbar.png);}
+.icon-nav{margin:15px 12px 15px 11px;;  display: block;height: 29px;width: 75px; background-repeat: no-repeat ; background-image: url(./images/google-icon-navbar.png);}
 .centeral-body-image{ display: grid;justify-content: center; margin-top: 3.5rem }
 .centeral-container{background-size: cover;background-repeat: no-repeat;background-position: center;height: 38rem;
     width: 67rem;border: none;border-radius: 10px;background-image: url(./images/google-body-image.jpg);}
@@ -59,6 +225,33 @@ justify-content: space-between; padding-bottom: 2rem; border-bottom: 1px solid #
 .about-list{list-style: none; color: grey; font-weight: 500; padding-bottom: 1rem;}
 .lower-footer{display: flex; gap: 2rem; font-family: "Open-Sans",sans-serif; padding-top: 2rem; }
 .google-footer{ font-family: "Open-Sans",sans-serif; font-size: 20px; color: grey; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
 .product-heading{display: flex;align-items: center;    margin-bottom: 2rem;}
 .product-head{font-family: "Open-Sans",sans-serif;
 font-weight: 500;font-size: 112px;}
@@ -103,7 +296,7 @@ background-size: cover; width: 35rem; height: 20rem; border-radius: 5px; float: 
   .no-border{border-bottom: none;}
 .grid-caption{font-size: 24px;font-weight: 400; line-height: 44px;word-spacing: 2px;line-height: 32px;color: #5f6368;
    padding: 1rem 0rem 1rem 0rem; font-family: 'Open-Sans',sans-serif;}
-.grid-heading-2{display: grid; /* text-align: left; */justify-items: baseline;}
+.grid-heading-2{display: grid; justify-items: baseline;}
 .video-grid{ border: 1px solid lightslategray; width: 30rem;} 
 .education-thumbnail{height: 20rem;width: 38rem;}
 .education-grid{display: grid; justify-items: center;}
@@ -112,7 +305,6 @@ background-size: cover; width: 35rem; height: 20rem; border-radius: 5px; float: 
 .classroom-image{background-image: url(./images/classroom.jpg); margin-left: 0rem;}
 .grid-heading-3{
   display: grid;
-  /* text-align: left; */
   justify-items: start;
   align-content: center;
 }
@@ -120,4 +312,4 @@ background-size: cover; width: 35rem; height: 20rem; border-radius: 5px; float: 
 .block-image5{background-image: url(./images/col5.png);}
 .block-image6{background-image: url(./images/col6.png);}
 .block-image7{background-image: url(./images/col7.png);}
-.middle-tile{vertical-align: middle;}
+.middle-tile{vertical-align: middle;} */
