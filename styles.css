@@ -2,7 +2,7 @@
 /* *{box-sizing: border-box;} */
 body {margin: 0px;font-family: 'Open-Sans',sans-serif;}
 .icon-nav{margin:15px 12px 15px 11px;  display: block;height: 29px;width: 75px; background-repeat: no-repeat ; background-image: url(./google-icon-navbar.png);}
-.topnav { height: 50px;width: 100%; position: relative;}
+.topnav { height: 50px;width: 100%; position: relative; display: inline-flex;}
 .topnav > .nav-header {display: inline-flex;}
 .topnav > .nav-header > .nav-title { display: inline-block;font-size: 22px;color: #0000;font-weight: 550;
   font-family: 'Open-Sans',sans-serif; padding: 10px 10px 10px 10px;}
@@ -69,9 +69,8 @@ justify-content: space-between; padding-bottom: 2rem; border-bottom: 1px solid #
 .foot-head{padding-bottom: 2rem;}
 .about-list{list-style: none; color: grey; font-weight: 500; padding-bottom: 1rem;}
 .lower-footer{display: flex; gap: 2rem; font-family: "Open-Sans",sans-serif; padding-top: 2rem; }
-.google-footer{ font-family: "Open-Sans",sans-serif; font-size: 20px; color: grey; }
-.accordion li {cursor: pointer;padding: 10px;background-color: #eee;border-bottom: 1px solid #ddd;
-}
+.custom-footer{ font-family: "Open-Sans",sans-serif; font-size: 20px; color: grey; }
+.accordion li {cursor: pointer;}
 .accordion li.accordion-active {background-color: #ccc;}
 
 .accordion .accordion-content {
