@@ -21,7 +21,7 @@ body {margin: 0px;font-family: 'Open-Sans',sans-serif;}
 .custom-green{color: #34a853;}
 .custom-yellow{color: #f9ab00;}
 .body{margin: 0px; padding: 0px;}
-.active{ border-bottom: 2px solid blue;  color: black}
+.active{ border-bottom: 4px solid blue;  color: black}
 .icon-nav{margin:15px 12px 15px 11px;;  display: block;height: 29px;width: 75px; background-repeat: no-repeat ; background-image: url(./images/google-icon-navbar.png);}
 .centeral-body-image{ display: grid;justify-content: center; margin-top: 3.5rem }
 .centeral-container{background-size: cover;background-repeat: no-repeat;background-position: center;height: 38rem;
@@ -49,12 +49,13 @@ body {margin: 0px;font-family: 'Open-Sans',sans-serif;}
 .image-3{background-image: url('./images/image-3.jpg');}
 .image-2{background-image: url('./images/image-2.jpg'); height: 25rem; width: 25rem;}
 .image-alignment{justify-content: center;}
+.custom-dimension{height: 12rem; width: 18rem;}
 .image-4{background-image: url('./images/image-4.jpg'); width: 37rem;height: 24rem;}
 .image-5{background-image: url('./images/image-5.jpg'); width: 37rem;height: 24rem;}
-.image-6{background-image: url('./images/image-6.jpg'); height: 10rem; width: 17rem;}
-.image-7{background-image: url('./images/image-7.jpg'); height: 12rem; width: 18rem;}
-.image-8{background-image: url('./images/image-8.jpg'); height: 12rem; width: 18rem;}
-.image-9{background-image: url('./images/image-9.jpg'); height: 12rem; width: 18rem;}
+.image-6{background-image: url('./images/image-6.jpg');}
+.image-7{background-image: url('./images/image-7.jpg'); }
+.image-8{background-image: url('./images/image-8.jpg'); }
+.image-9{background-image: url('./images/image-9.jpg'); }
 .image-card{ display: grid; justify-content: center;}
 .custom-row-3{justify-content: center; display: grid;}
 .upper-footer{padding-bottom: 3rem; width: 1170px;margin-top: 3rem;display: flex;justify-content: space-between;  
