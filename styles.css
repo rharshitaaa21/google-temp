@@ -8,7 +8,7 @@ body {margin: 0px;font-family: 'Open-Sans',sans-serif;}
   font-family: 'Open-Sans',sans-serif; padding: 10px 10px 10px 10px;}
 .topnav > .nav-btn {display: none;}
 .topnav > .nav-links { display: inline-block;font-size: 18px;}
-.topnav > .nav-links > ul li a{display: block; padding: 0 8px;color:black;line-height: 40px;font-size: 20px;
+.topnav > .nav-links > ul li a{display: block; padding: 0 8px;color:black;line-height: 40px;font-size: 18px;
   text-decoration: none;}
 .topnav > .nav-links > ul{ padding: 0;margin-top: 5px;list-style: none;position: relative;}
 .topnav > .nav-links > ul li{display: inline-block;color: #0000; }
@@ -21,7 +21,7 @@ body {margin: 0px;font-family: 'Open-Sans',sans-serif;}
 .custom-green{color: #34a853;}
 .custom-yellow{color: #f9ab00;}
 .body{margin: 0px; padding: 0px;}
-.active{ border-bottom: 4px solid blue;  color: black}
+.active{ border-bottom: 2px solid blue;  color: black}
 .icon-nav{margin:15px 12px 15px 11px;;  display: block;height: 29px;width: 75px; background-repeat: no-repeat ; background-image: url(./images/google-icon-navbar.png);}
 .centeral-body-image{ display: grid;justify-content: center; margin-top: 3.5rem }
 .centeral-container{background-size: cover;background-repeat: no-repeat;background-position: center;height: 38rem;
@@ -62,7 +62,7 @@ body {margin: 0px;font-family: 'Open-Sans',sans-serif;}
        border-bottom: 1px solid #dadce0;}
 .footer{margin-top: 8rem; background-color: #f8f9fa; display: grid; justify-content: center;}
 .left-social-icons{ display: flex; gap: 2rem; float: left;}
-.follow-us{font-family: "Open-Sans",sans-serif; font-size: 16x; color: rgb(14, 14, 14);}
+.follow-us{font-family: "Open-Sans",sans-serif; font-size: 18px;color: rgb(14, 14, 14);font-weight: 600;}
 .icon-decoration{
   outline: none;  text-decoration: none; color: black; font-size: 24px;}
 .right-social-icons{ float: right; gap: 2rem; display: flex;}
