@@ -6,3 +6,14 @@ function myFunction() {
       x.className = "topnav";
     }
  }
+
+ const accordion = document.querySelector('.accordion');
+
+ accordion.addEventListener('click', function(event) {
+   if (event.target.tagName === 'LI') {
+     const content = event.target.nextElementSibling;
+     event.target.classList.toggle('accordion-active');
+     content.classList.toggle('accordion-active');
+   }
+ });
+ 

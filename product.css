@@ -1,0 +1,64 @@
+
+
+
+.product-heading{display: flex;align-items: center;    margin-bottom: 2rem;}
+.product-head{font-family: "Open-Sans",sans-serif;
+font-weight: 500;font-size: 112px;}
+.product-image{background-size: cover; background-image: url(./images/product-image.jpg); background-repeat: no-repeat; background-position: center;
+  height: 198px;width: 275px;}
+  .center-width{ display: flex; width: 1170px; flex-direction: column; align-items: center;align-items: center; }
+.product-card{ margin-left: 20rem; border-radius: 5px; border: 1px solid grey;}
+.product-card:hover{ transition-duration: 150ms; box-shadow: 0 5px 20px 5px #00000044;}
+.product-caption{font-family: "Open-Sans",sans-serif;font-weight: 500;font-size: 22px;padding-bottom: 1rem; text-align: center; padding-top: 1rem;}
+.center-body{display: grid;justify-items: center;}
+.product-tag-2{margin-top: 10rem;display: flex;border-bottom: 1px solid #dadce0;padding-bottom: 5rem;}
+.product-caption-2{ float: left;}
+.product-head-2{    font-size: 48px;
+  line-height: 56px;     font-weight: 400;
+  letter-spacing: -.25px;font-family: "Open-Sans",sans-serif;} 
+.product-line-2{color: #5f6368;font-family: "Open-Sans",sans-serif;font-size: 20px; margin-top: 1.5rem;}
+.product-photo-2{margin-left: 8rem; background-image: url(./images/product-image-2.jpg); background-position: center; background-repeat: no-repeat;
+background-size: cover; width: 35rem; height: 20rem; border-radius: 5px; float: right;}
+.product-head-3{font-family: "Open-Sans",sans-serif; color: #202124; font-size: 60px;font-weight: 400;letter-spacing: -.5px;line-height: 72px;font-family: "Open-Sans",sans-serif;}
+.align-btn{text-align: left;}
+.g-container{margin-top: 5rem; padding-bottom: 5rem;display: grid; justify-items: center;justify-content: center;}
+  .g-caption{font-size: 36px; font-weight: 400;letter-spacing: -.25px; line-height: 44px; word-spacing: 3px;
+    line-height: 38px;color: #5f6368;font-family: "Open-Sans",sans-serif;text-align: center; padding: 2rem 0rem 2rem 0rem;}
+.g-image{background-image: url(./images/G.png); background-position: center; background-repeat: no-repeat;
+  background-size: cover; width: 10rem; height: 10rem;  margin-bottom: 3rem;}
+.image-container{display: flex; justify-content: space-between;}
+.vertical-block-padding{padding: 5rem 2rem 4rem 5rem;}
+.vertical-block{  justify-items: center;display: grid; padding: 4rem 2rem 4rem 2rem; border: 1px solid lightgray ; border-radius: 10px; text-align: center;}
+.block-image{ background-position: center; background-repeat: no-repeat;
+  background-size: cover ; height: 7rem; width: 7rem; margin-bottom: 3rem;}
+.block-image1{background-image: url(./images/col1.png);}
+.block-image2{background-image: url(./images/col2.png);}
+.block-image3{background-image: url(./images/col3.png);} 
+.block-head{font-family: "Open-Sans",sans-serif;color: #202124;
+  font-size: 24px;line-height: 32px; }
+  .block-caption{ color: #5f6368; font-family: "Open-Sans",sans-serif; font-size: 18px; margin-top: 12px;
+    line-height: 1.5; font-size: 16px;letter-spacing: 0;}
+.safer{     background-color: #e8f0fe;border-radius: 18px;color: #1967d2;padding: 2px 10px;}
+.vertical-block:hover{ transition-duration: 150ms; box-shadow: 0 5px 20px 5px #00000044;}
+.vertical-grid-2{display: flex;padding-bottom: 5rem; margin-top: 5rem;border-bottom: 1px solid lightgray;
+  width: 100%; justify-content: space-between;}
+  .no-border{border-bottom: none;}
+.grid-caption{font-size: 24px;font-weight: 400; line-height: 44px;word-spacing: 2px;line-height: 32px;color: #5f6368;
+   padding: 1rem 0rem 1rem 0rem; font-family: 'Open-Sans',sans-serif;}
+.grid-heading-2{display: grid; justify-items: baseline;}
+.video-grid{ border: 1px solid lightslategray; width: 30rem;} 
+.education-thumbnail{height: 20rem;width: 38rem;}
+.education-grid{display: grid; justify-items: center;}
+.grid-font{   letter-spacing: 0px; font-size: 40px; line-height: 3rem;}
+.vertical-grid-caption{color: #202124;font-size: 20px;font-weight: 400;padding: 1rem 0rem 0rem 0rem;; letter-spacing: initial;line-height: 28px;}
+.classroom-image{background-image: url(./images/classroom.jpg); margin-left: 0rem;}
+.grid-heading-3{
+  display: grid;
+  justify-items: start;
+  align-content: center;
+}
+.block-image4{background-image: url(./images/col4.png);}
+.block-image5{background-image: url(./images/col5.png);}
+.block-image6{background-image: url(./images/col6.png);}
+.block-image7{background-image: url(./images/col7.png);}
+.middle-tile{vertical-align: middle;} 
