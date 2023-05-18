@@ -155,12 +155,7 @@ justify-content: space-between; padding-bottom: 2rem; border-bottom: 1px solid #
 /* for tablet screens  */
 
 @media (min-width:360px) and (max-width: 767px) {
- .topnav {height: 50px;
-    width: 150%;
-    position: relative;
-    display: inline-flex;
-    padding: 0.5rem;
-}
+ .topnav {height: 50px;width: 150%;position: relative;display: inline-flex;  padding: 0.5rem;}
   .topnav > .nav-btn {display: inline-block;position: absolute;right: 0px;top: 0px;}
 .topnav{border: 2px solid lightgray; padding-bottom: 1rem ;}
 .active{ border-bottom: none;}
@@ -175,15 +170,8 @@ justify-content: space-between; padding-bottom: 2rem; border-bottom: 1px solid #
   .topnav > .nav-links > ul li a{margin-left: 40%; }
   .topnav > #nav-check:not(:checked) ~ .nav-links { height: 0px; }
   .topnav > #nav-check:checked ~ .nav-links { height: calc(100vh - 50px); overflow-y: auto;}
-  .info-container {
-    display: grid;
-    font-size: 7vw;
-    line-height: 10vh;
-}
-.centeral-container {
-  height: 90vh;
-  width: 123vw;
-}
+  .info-container { display: grid;font-size: 7vw;line-height: 10vh;}
+.centeral-container {height: 90vh;width: 123vw;}
 .body-caption{font-size: 4.5vw; line-height: 7.5vh;}
   .post-card-1{display: grid; justify-content: center; justify-items: center; }
   /* .body-caption{ font-size: 20px;  font-weight: 400; letter-spacing: initial; line-height: 30px;word-spacing: 0;} */
@@ -229,13 +217,11 @@ justify-content: space-between; padding-bottom: 2rem; border-bottom: 1px solid #
    .custom-heading{font-size: 5vw;}
    .custom-image{width: 25rem; height: 15rem;}
    .upper-footer{width: 100%;gap: 2rem;}
-   /* .blue-tag{font-size: 4vw;} */
    .centeral-body-image {width: 150%;margin-left: 1rem;}
    .blue-btn{ padding: 20px;font-size: 3vw;}
    .white-btn{ padding: 20px;font-size: 3vw;}
    .image-container{margin-top: 15vh;}
-   /* .image-card{ border: 1px solid #1a73e8; border-radius: 10px ;} */
-   .animated-book-image{ height: 90vh;width: 123vw;}
+  .animated-book-image{ height: 90vh;width: 123vw;}
    .custom-heading{font-size: 8vw;}
    .photo-container{height: 100vh;width: 85vw;}
 
@@ -244,7 +230,8 @@ justify-content: space-between; padding-bottom: 2rem; border-bottom: 1px solid #
  /* for small resolution browser screens */
 
 @media (min-width:901px) and (max-width: 1200px){
-  .info-container{}
+  .centeral-body-image{width: 150%;}
+  .info-container{font-size: 3vw; line-height: 10vh;}
 }
 
 
