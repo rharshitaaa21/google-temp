@@ -224,45 +224,36 @@ justify-content: space-between; padding-bottom: 2rem; border-bottom: 1px solid #
   .topnav > .nav-links > ul li a{margin-left: 40%; }
   .topnav > #nav-check:not(:checked) ~ .nav-links { height: 0px; }
   .topnav > #nav-check:checked ~ .nav-links { height: calc(100vh - 50px); overflow-y: auto;}
-  .info-container {display: grid;font-size: 25px;line-height: 29px;}
-  .centeral-container{height: 20rem; width: 36rem; }
-  /* .centeral-body-image{width: 140%;} */
-  .centeral-container {height: 25rem;width: 30rem;}
+  .info-container {
+    display: grid;
+    font-size: 7vw;
+    line-height: 10vh;
+}
+.centeral-container {
+  height: 90vh;
+  width: 123vw;
+}
+.body-caption{font-size: 4.5vw; line-height: 7.5vh;}
   .post-card-1{display: grid; justify-content: center; justify-items: center; }
-  .body-caption{ font-size: 20px;  font-weight: 400; letter-spacing: initial; line-height: 30px;word-spacing: 0;}
+  /* .body-caption{ font-size: 20px;  font-weight: 400; letter-spacing: initial; line-height: 30px;word-spacing: 0;} */
   .post-card-1:hover{border: 2px solid #1a73e8;border-radius: 10px;}
-  .heading-container{ font-size: 6vw;font-weight: 500;letter-spacing: 0; line-height: 1.2em;}
+  .heading-container{ font-size: 8vw;font-weight: 500;letter-spacing: 0; line-height: 1.2em;}
   .animated-book-image{height: 18rem; width: 36rem;}
   .image-container{ margin-top: 5rem; display: grid; justify-content: center;}
   .custom-hover-border:hover{ border: 2px solid #1a73e8; border-radius: 10px;}
   .custom-heading{font-size: 5vw;}
   .custom-image{width: 25rem; height: 15rem;}
   .upper-footer{width: 100%;gap: 2rem;}
+  .blue-tag{font-size: 4vw;}
   .centeral-body-image {width: 150%;margin-left: 1rem;}
-
-  
-  .accordion li {
-    display: block;
-  }
-
-  .accordion .accordion-content {
-    display: none;
-  }
-
-  .accordion li.accordion-active {
-    background-color: #ccc;
-  }
-
-  .accordion .accordion-content.accordion-active {
-    display: block;
-  }
+  .blue-btn{  padding: 5vh;font-size: 4vw;}
+  .white-btn{ padding: 5vh;font-size: 4vw;}
+  .image-container{margin-top: 15vh;}
+  .animated-book-image{ height: 90vh;width: 123vw;}
+  .custom-heading{font-size: 8vw;}
+  .photo-container{height: 63vh;width: 85vw;}
 }
 
-
-
-
-
-
-
+  
 
 
